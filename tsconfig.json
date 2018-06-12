@@ -1,9 +1,15 @@
 {
     "compileOnSave": true,
     "compilerOptions": {
-        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es5",
+        "module": "amd",
         "sourceMap": true,
-        "outDir": "./dist/scripts"
+        "outDir": "./dist/scripts",
+        "experimentalDecorators": true,
+        "typeRoots": [
+            "@types","vue/types"
+        ]
     },
     "include": [
         "./scripts/**/*.ts"

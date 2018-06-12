@@ -7,10 +7,16 @@ new Vue({
     },
     methods: {
         add() {
-            this.name.toString(); 
+            this.name.toString();
         },
-        click(){
+        click() {
 
+        },
+        tt(){
+            
         }
+    },
+    watch: {
+
     }
 });
